@@ -1,0 +1,53 @@
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 7px solid white;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+  
+li {
+    float: right;
+}
+  
+li a{
+    display: block;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #d3d1d1;
+}
+
+.linhnavbar{
+    z-index: 100;
+    position: fixed;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image1{
+    position: relative;
+}
+  
+.bottomleft {
+    z-index: 1;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+} 
